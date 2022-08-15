@@ -37,3 +37,7 @@
     width:800px;
     margin:auto;
 }
+.pics{
+    display:flex;
+    justify-content: center;
+}
