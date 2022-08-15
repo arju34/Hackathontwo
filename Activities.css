@@ -1,0 +1,22 @@
+.Header{
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Stuff{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Carousel{
+    display:flex;
+    justify-content:center;
+}
+.Compile{
+    width:800px;
+    margin:auto;
+}
+.check{
+    width:800px;
+    margin:auto;
+}

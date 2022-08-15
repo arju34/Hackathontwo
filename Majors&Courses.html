@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Majors & Courses
+    </title>
+  <link rel="stylesheet" href="Majors&Courses.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+    </symbol>
+    <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+    </symbol>
+    <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </symbol>
+  </svg>
+    <div class="Header">
+        <header> <h1>College Express 🎓</h1></header>
+    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Navigation.html">Navigation</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Intro.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Navigation.html">How to Navigate</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      States
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/alabama/" target="_blank">Alabama</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/alaska/" target="_blank">Alaska</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/arizona/" target="_blank">Arizona</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/arkansas/" target="_blank">Arkansas</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/california/" target="_blank">California</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/colorado/" target="_blank">Colorado</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/connecticut/" target="_blank">Connecticut</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/delaware/" target="_blank">Delaware</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/district-of-columbia/" target="_blank">District of Columbia</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/florida/" target="_blank">Florida</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/georgia/" target="_blank">Georgia</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/hawaii/" target="_blank">Hawaii</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/idaho/" target="_blank">Idaho</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/illinois/" target="_blank">Illinois</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/indiana/" target="_blank">Indiana</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/iowa/" target="_blank">Iowa</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/kansas/" target="_blank">Kansas</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/kentucky/" target="_blank">Kentucky</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/louisiana/" target="_blank">Louisiana</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/maine/" target="_blank">Maine</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/maryland/" target="_blank">Maryland</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/massachusetts/" target="_blank">Massachusetts</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/michigan/" target="_blank">Michigan</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/minnesota/" target="_blank">Minnesota</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/mississippi/" target="_blank">Mississippi</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/missouri/" target="_blank">Missouri</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/montana/" target="_blank">Montana</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/nebraska/" target="_blank">Nebraska</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/nevada/" target="_blank">Nevada</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-hampshire/" target="_blank">New Hampshire</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-jersey/" target="_blank">New Jersey</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-mexico/" target="_blank">New Mexico</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-york/" target="_blank">New York</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/north-carolina/" target="_blank">North Carolina</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/north-dakota/" target="_blank">North Dakota</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/ohio/" target="_blank">Ohio</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/oklahoma/" target="_blank">Oklahoma</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/oregon/" target="_blank">Oregon</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/pennsylvania/" target="_blank">Pennsylvania</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/rhode-island/" target="_blank">Rhode Island</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/south-carolina/" target="_blank">South Carolina</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/south-dakota/" target="_blank">South Dakota</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/tennessee/" target="_blank">Tennessee</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/texas/" target="_blank">Texas</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/utah/" target="_blank">Utah</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/vermont/" target="_blank">Vermont</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/virginia/" target="_blank">Virginia</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/washington/" target="_blank">Washington</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/west-virginia/" target="_blank">West Virginia</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/wisconsin/" target="_blank">Wisconsin</a></li>
+                      <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/wyoming/" target="_blank">Wyoming</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Tuition.html" target="_blank">Tuition</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Living&Costs.html" target="_blank">Living & Costs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Majors&Courses.html" target="_blank">Major & Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Activities.html" target="_blank">Activities</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <br>
+    <h2 style="text-align:center;">Majors 🧑‍🏫</h2>
+    <div class="Intro">
+      <div style="width:1010px;height:210px;background-color:white;display:inline-block;text-align:center;">
+        <p>The biggest factor in deciding what you will do in college is your major as this helps to pick the courses that are required of you. Thinkng about your major and deciding what you are going to do can be challenging as you may not know what you want to do with your career yet. You are stuck in this place thinking you can't go to college without a plan. A few ways to start thinking about what you want to major in is finding out what you are interested in through the careers you think you could go into for the rest of your life so it's always best to get hands-on experience or real-life shadowing in different professions. Connecting your interests to school can help by connecting the hobbies that you are interested in. You can even go undecided for the first year of college as you take general requirements but at one point you will eventually have to pick a major that works best for you. Thankfully, we have attached some quizzes and some popular majors throughout America so you can get some guidance about which major you could pick.</p>
+      </div>
+    </div>
+    <div class="offset">
+    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      Deciding A Major Resources
+    </button>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Majors</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          The data for the common majors of 2022 were provided a study done by Forbes but keep in mind that it did not include every single college in the U.S. but is very representative of what majority of students pick. If you would like to see by state, please click on the last link in the dropdown menu.
+        </div>
+        <br>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Common College Majors
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item">Business</a></li>
+            <li><a class="dropdown-item">Nursing</a></li>
+            <li><a class="dropdown-item">Psychology</a></li>
+            <li><a class="dropdown-item">Biology</a></li>
+            <li><a class="dropdown-item">Medicine/Pre-Medicine</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item active" href="https://bold.org/blog/most-popular-college-majors/">Popular College Majors</a></li>
+          </ul>
+        </div>
+        <br>
+        <div>
+          Here is a quiz to take if you cannot figure out which major you want to go into. Even though this may not pull up all the majors at every college, you can use the results to gauge which type of major category you want to go into.
+        </div>
+        <br>
+        <div class="butt">
+        <a href="https://www.usnews.com/best-colleges/college-major-quiz" target="_blank"><button type="button" class="btn btn-outline-danger">Majors Quiz</button></a>
+        </div>
+        <br>
+        <div class="card2">
+          <div class="card" style="width: 18rem;">
+            <img src="https://i.ytimg.com/vi/i_T-k5pq1kc/maxresdefault.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">College Major</h5>
+              <p class="card-text">Choose the right major for you!</p>
+              <a href="https://www.youtube.com/watch?v=i_T-k5pq1kc" class="btn btn-primary">How to Choose a College Major</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br>
+    <div class="Alert" style="width:950px;margin:auto;">
+      <div class="alert alert-success d-flex align-items-center" role="alert">
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+        <div>
+          Reminder - Document what majors you are interested in and what is offered by colleges on your excel sheet!
+        </div>
+      </div>
+    </div> 
+    <h3 style="text-align:center;">Standardized Exams 📝</h3>
+    <div class="tests">
+      <div style="width:1010px;height:170px;background-color:white;display:inline-block;text-align:center;">
+        For careers that require higher education and sometimes for some jobs, standardized exams are required to be taken. No matter what degree you go into, you will have to face exams in college as they are the most common way to test your knowledge. Standardized exams are just upscaled models of those exams but usually contain a greater extent of information while needing to study for it outside of the time spent for college and other activities. It is important to figure out which exams you need to take for the professional career you want to go into and plan from ahead when and where you should take the exam. To learn more about which tests you may have to take, please go to the website below and learn about how to study and when to start studying for those exams so you can be prepared. 
+      </div>
+    </div>
+    <div class="Yo text-center">
+    <a href="https://educationusa.state.gov/your-5-steps-us-study/research-your-options/graduate/prepare-us-standardized-tests" target="_blank"><button type="button" class="btn btn-warning btn-lg">Exams Info</button></a>
+    </div>
+    <br>
+    <div class="Vid">
+      <iframe width="700" height="394" src="https://www.youtube.com/embed/DBLjaX72Fqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="Alert" style="width:950px;margin:auto;">
+      <div class="alert alert-success d-flex align-items-center" role="alert">
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+        <div>
+          Reminder - Document which standardized exams you have to take based on your career interest on your excel sheet and write when you plan to study for them on your course sheet!
+        </div>
+      </div>
+    </div> 
+    <br>
+    <h3 style="text-align:center;"> Courses </h3>
+    <div class="skeet">
+      <div style="width:1010px;height:170px;background-color:white;display:inline-block;text-align:center;">
+        <p>After picking a major and deciding which college you will go to, it is now time to pick the courses that you need to take. However, this can be very stressful as you need to figure out which classes you need to take and when to take them. It gets even harder if it is a bigger college as there are much more classes to choose from with more people to compete with. This is why you should schedule which courses you need to take from beforehand with an excel sheet. You can figure out what classes you need to take based on the classes you need for your degree or based on the prerequisites that are needed for your target graduate schools. </p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>

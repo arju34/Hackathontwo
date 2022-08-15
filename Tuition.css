@@ -1,0 +1,60 @@
+.Header{
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Intro{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Priv{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Video{
+    display:flex;
+    justify-content:center;
+}
+.Free{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Second-Vid{
+    display:flex;
+    justify-content:center;
+}
+.Stuff{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Loans{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Work{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Things{
+    display:flex;
+    justify-content:center;
+}
+.Image{
+    display:flex;
+    justify-content:center;
+}
+.check{
+    width:800px;
+    margin:auto;
+}

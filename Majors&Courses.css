@@ -1,0 +1,30 @@
+.Header{
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .dropdown{
+     display:flex; justify-content:center;
+  }
+  .card2{
+     display:flex;justify-content:center;
+  }
+  .Intro{
+    display:flex;justify-content:center;
+  }
+  .offset{
+    display:flex;
+    justify-content:center;
+  }
+  .butt{
+    display:flex;
+    justify-content:center;
+  }
+  .tests{
+    display:flex;justify-content:center;
+  }
+  .Vid{
+    display:flex;justify-content:center;
+  }
+  .skeet{
+   display:flex;justify-content:center;
+ }

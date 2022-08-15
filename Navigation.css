@@ -1,0 +1,15 @@
+.Navigate{
+    display:flex;
+    justify-content:center;
+}
+.List{
+    display:flex;
+    justify-content:center;
+}
+ul{
+    text-align:left;
+}
+.Header{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
