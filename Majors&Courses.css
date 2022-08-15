@@ -9,7 +9,7 @@
      display:flex;justify-content:center;
   }
   .Intro{
-    display:flex;justify-content:center;
+    display:flex;justify-content:center;font-size:17px;
   }
   .offset{
     display:flex;
@@ -20,11 +20,31 @@
     justify-content:center;
   }
   .tests{
-    display:flex;justify-content:center;
+    display:flex;justify-content:center;font-size:17px;
   }
   .Vid{
     display:flex;justify-content:center;
   }
   .skeet{
-   display:flex;justify-content:center;
+   display:flex;justify-content:center;font-size:17px;
  }
+ .sike{
+    display:flex;justify-content:center;
+  }
+  .but1{
+    display:flex;justify-content:center;
+  }
+  .but2{
+    display:flex;justify-content:center;
+  }
+  .but3{
+    display:flex;justify-content:center;
+  }
+  .mover{
+    display:flex;
+    justify-content:center;
+  }
+  .check{
+    width:800px;
+    margin:auto;
+}
