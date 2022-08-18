@@ -8,6 +8,108 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
-        
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </symbol>
+            <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            </symbol>
+            <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </symbol>
+          </svg>
+            <div class="Header">
+            <header> <h1>College Express 🎓</h1></header>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navigation</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Intro.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Location.html" target="_blank">Location</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          States
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/alabama/" target="_blank">Alabama</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/alaska/" target="_blank">Alaska</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/arizona/" target="_blank">Arizona</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/arkansas/" target="_blank">Arkansas</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/california/" target="_blank">California</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/colorado/" target="_blank">Colorado</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/connecticut/" target="_blank">Connecticut</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/delaware/" target="_blank">Delaware</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/district-of-columbia/" target="_blank">District of Columbia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/florida/" target="_blank">Florida</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/georgia/" target="_blank">Georgia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/hawaii/" target="_blank">Hawaii</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/idaho/" target="_blank">Idaho</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/illinois/" target="_blank">Illinois</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/indiana/" target="_blank">Indiana</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/iowa/" target="_blank">Iowa</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/kansas/" target="_blank">Kansas</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/kentucky/" target="_blank">Kentucky</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/louisiana/" target="_blank">Louisiana</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/maine/" target="_blank">Maine</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/maryland/" target="_blank">Maryland</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/massachusetts/" target="_blank">Massachusetts</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/michigan/" target="_blank">Michigan</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/minnesota/" target="_blank">Minnesota</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/mississippi/" target="_blank">Mississippi</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/missouri/" target="_blank">Missouri</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/montana/" target="_blank">Montana</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/nebraska/" target="_blank">Nebraska</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/nevada/" target="_blank">Nevada</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-hampshire/" target="_blank">New Hampshire</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-jersey/" target="_blank">New Jersey</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-mexico/" target="_blank">New Mexico</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-york/" target="_blank">New York</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/north-carolina/" target="_blank">North Carolina</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/north-dakota/" target="_blank">North Dakota</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/ohio/" target="_blank">Ohio</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/oklahoma/" target="_blank">Oklahoma</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/oregon/" target="_blank">Oregon</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/pennsylvania/" target="_blank">Pennsylvania</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/rhode-island/" target="_blank">Rhode Island</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/south-carolina/" target="_blank">South Carolina</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/south-dakota/" target="_blank">South Dakota</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/tennessee/" target="_blank">Tennessee</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/texas/" target="_blank">Texas</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/utah/" target="_blank">Utah</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/vermont/" target="_blank">Vermont</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/virginia/" target="_blank">Virginia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/washington/" target="_blank">Washington</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/west-virginia/" target="_blank">West Virginia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/wisconsin/" target="_blank">Wisconsin</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/wyoming/" target="_blank">Wyoming</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Tuition.html" target="_blank">Tuition</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Living&Costs.html" target="_blank">Living & Costs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Majors&Courses.html" target="_blank">Major & Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Activities.html" target="_blank">Activities</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <br>
     </body>
 </html>

@@ -1,0 +1,55 @@
+.Header{
+    text-align:center;
+}
+.Four_Years{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Accordion{
+    width:800px;
+    margin:auto;
+}
+.Video{
+    display:flex;
+    justify-content:center;
+}
+.Assoc_button{
+    display:flex;
+    justify-content:center;
+}
+.Cert_button{
+    display:flex;
+    justify-content:center;
+}
+.Master_button{
+    display:flex;
+    justify-content:center;
+}
+.Doc_button{
+    display:flex;
+    justify-content:center;
+}
+.Factors{
+    display:flex;
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+}
+.Videos{
+    display:flex;
+    justify-content:center;
+}
+ul{
+    display:inline-block;
+    text-align:left;    
+}
+.check{
+    width:800px;
+    margin:auto;
+}
