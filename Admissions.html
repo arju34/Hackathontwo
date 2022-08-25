@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Admissions </title>
+        <link rel="stylesheet" href="Admissions.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </symbol>
+            <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            </symbol>
+            <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </symbol>
+          </svg>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="logo.jpg" style="width:250px">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Intro.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Introduction with Navigation">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Admissions.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how you can apply for college & requirements">Admissions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Location.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how location affects college choice.">Location</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Go to a list of colleges from each state">
+                          States
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/alabama/" target="_blank">Alabama</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/alaska/" target="_blank">Alaska</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/arizona/" target="_blank">Arizona</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/arkansas/" target="_blank">Arkansas</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/california/" target="_blank">California</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/colorado/" target="_blank">Colorado</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/connecticut/" target="_blank">Connecticut</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/delaware/" target="_blank">Delaware</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/district-of-columbia/" target="_blank">District of Columbia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/florida/" target="_blank">Florida</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/georgia/" target="_blank">Georgia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/hawaii/" target="_blank">Hawaii</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/idaho/" target="_blank">Idaho</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/illinois/" target="_blank">Illinois</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/indiana/" target="_blank">Indiana</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/iowa/" target="_blank">Iowa</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/kansas/" target="_blank">Kansas</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/kentucky/" target="_blank">Kentucky</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/louisiana/" target="_blank">Louisiana</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/maine/" target="_blank">Maine</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/maryland/" target="_blank">Maryland</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/massachusetts/" target="_blank">Massachusetts</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/michigan/" target="_blank">Michigan</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/minnesota/" target="_blank">Minnesota</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/mississippi/" target="_blank">Mississippi</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/missouri/" target="_blank">Missouri</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/montana/" target="_blank">Montana</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/nebraska/" target="_blank">Nebraska</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/nevada/" target="_blank">Nevada</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-hampshire/" target="_blank">New Hampshire</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-jersey/" target="_blank">New Jersey</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-mexico/" target="_blank">New Mexico</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/new-york/" target="_blank">New York</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/north-carolina/" target="_blank">North Carolina</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/north-dakota/" target="_blank">North Dakota</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/ohio/" target="_blank">Ohio</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/oklahoma/" target="_blank">Oklahoma</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/oregon/" target="_blank">Oregon</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/pennsylvania/" target="_blank">Pennsylvania</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/rhode-island/" target="_blank">Rhode Island</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/south-carolina/" target="_blank">South Carolina</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/south-dakota/" target="_blank">South Dakota</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/tennessee/" target="_blank">Tennessee</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/texas/" target="_blank">Texas</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/utah/" target="_blank">Utah</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/vermont/" target="_blank">Vermont</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/virginia/" target="_blank">Virginia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/washington/" target="_blank">Washington</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/west-virginia/" target="_blank">West Virginia</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/wisconsin/" target="_blank">Wisconsin</a></li>
+                          <li><a class="dropdown-item" href="https://www.campusexplorer.com/colleges/state/wyoming/" target="_blank">Wyoming</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Careerpath.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about options in career paths">Career Path</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Degrees.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about the types of degrees">Degrees</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Tuition.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about financial information about tuition">Tuition</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Living&Costs.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn abour living options & costs associated with it">Living & Costs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Activities.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how you can get involved in activities">Activities</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Majors.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about education classification in colleges">Majors</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Courses.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how to organize your classes">Courses</a>
+                      </li>
+                      
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Stay updated on college info">Updates</a>
+                      </li>
+                      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Get to know a little bit about us">
+                            About Us
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Meet the Creators</a></li>
+                            <li><a class="dropdown-item" href="#">Meet our Sponsors</a></li>
+                            <li><a class="dropdown-item" href="#">Meet our Supporters</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Let's talk!">Contact Us</a>
+                    </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <br>
+              <div class="Footer">
+                <div style="width:1519px;height:300px;background-color:black;display:inline-block;justify-content:center;">
+                  <footer>
+                    <br>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-1">
+                          <strong style="color:white;"><u>Pages</u></strong>
+                          <a class="nav-link active" aria-current="page" href="Intro.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Introduction with Navigation" style="color:white;">Home</a>                 
+                          <a class="nav-link" href="Location.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how location affects college choice." style="color:white;">Location</a>
+                          <a class="nav-link" href="Careerpath.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about options in career paths" style="color:white;">Career Path</a>
+                          <a class="nav-link" href="Degrees.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about the types of degrees" style="color:white;">Degrees</a>
+                          <a class="nav-link" href="Tuition.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about financial information about tuition" style="color:white;">Tuition</a>
+                        </div>
+                        <div class="col-2"> 
+                          <strong style="color:black;">Page</strong>
+                          <a class="nav-link" href="Living&Costs.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn abour living options & costs associated with it" style="color:white;">Living & Costs</a>            
+                          <a class="nav-link" href="Majors.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about education classification in colleges" style="color:white;">Majors</a>
+                          <a class="nav-link" href="Courses.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how to organize your classes" style="color:white;">Courses <span style="color:black">some shit bro come on where </span></a>
+                          <a class="nav-link" href="Activities.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how you can get involved in activities" style="color:white;">Activities</a>
+                          <a class="nav-link" href="Admissions.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn about how you can apply for college & requirements" style="color:white;">Admissions</a>
+                        </div>
+                        <div class="col-5 align-self-end"> 
+                          <img src="logo.jpg" style="width:400px;">
+                          <br>
+                          <br>
+                          <p style="color:darkgray"> This website is intended for strictly educational purposes and does not endorse any brands even under sponsorship. We do not intend to advertise nor distribute any items through this website as we serve to inform viewers with unbiased facts. For further inquiries please contact us.</p>                 
+                        </div>
+                        <div class="col-2"> 
+                          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Stay updated on college info" style="color:white;"><strong><u>Stay Updated!</u></strong></a>   
+                          <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Learn more about us" style="color:white;"><strong><u>About Us</u></strong></a>   
+                          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Know who 'we' are" style="color:white;">Meet our Creators</a>   
+                          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Companies and organizations that support us" style="color:white;">Meet our Sponsors</a>   
+                          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Meet the people who have been impacted by this site" style="color:white;">Meet our Supporters</a>   
+                          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Stay updated on college info" style="color:white;"><strong><u>Contact Us</u></strong></a>   
+                        </div>
+                        <div class="col-2">
+                          <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Stay updated on college info" style="color:white;"><strong><u>Resources</u></strong></a>   
+                          <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1-nSZSKIoDFMuD6QHJCkYfL9B_kUvKJ3eaQ9UnZAncjw/edit?usp=sharing" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Our ultimate organizer for deciding between colleges" style="color:white;">The College Cheatsheet</a>   
+                          <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1dEn5GB_TlpCDqGOqmleW5BOnfm5GUrwjoZbvAl-3ukg/edit?usp=sharing" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Organize your classes through this sheet" style="color:white;">Courses Organizer</a>   
+                          <a class="nav-link" href="https://docs.google.com/spreadsheets/d/143oFNcYUF9qcLsVt43ayOyj0i5K0yoYEJMgQRz99D10/edit?usp=sharing" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Document your extracurriculars through this sheet" style="color:white;">Activities Organizer</a>   
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                </div>
+                </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
