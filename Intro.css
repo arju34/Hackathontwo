@@ -37,3 +37,17 @@ ul{
 body{
     padding-top:50px;
 }
+.Why{
+    display:flex;
+    justify-content:center; 
+    font-size:17px;
+}
+.why2{
+    display:flex;
+    justify-content:center; 
+    font-size:17px;
+}
+.shut{
+    display:flex;
+    justify-content:center;
+}
